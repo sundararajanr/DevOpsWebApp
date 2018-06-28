@@ -108,7 +108,7 @@
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>Nexus Snapshots Repository</name>
-			<url>http://13.58.20.72:8081/nexus/content/repositories/nexus_snapshot/</url>
+			<url>http://13.127.69.117:8081/nexus/content/repositories/testrepo/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<profiles>
