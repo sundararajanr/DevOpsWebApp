@@ -1,7 +1,7 @@
 # DevOpsWebApp
 
 mvn clean test
-
+test
 mvn clean install
 
 mvn tomcat7:deploy (Make sure tomcat server is online)
