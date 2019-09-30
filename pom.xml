@@ -103,7 +103,7 @@
 		<repository>
 			<id>deployment</id>
 			<name>Nexus Release Repository</name>			
-			<url>http://35.202.65.221:8081/repository/nexus_Jenkis_artifacts/</url>
+			<url>http://35.222.220.73:8081/repository/nexus_Jenkis_artifacts/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
