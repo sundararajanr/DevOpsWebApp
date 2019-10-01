@@ -72,9 +72,9 @@
 			</plugin>
 		
 			<plugin>
-				 
+				
 					<role rolename="manager-gui"/>
-					<user username="tomcat" password="s3cret" roles="admin,tomcat,manager-gui,manager-script"/>
+					<user username="tomcat" password="jen123" roles="admin,tomcat,manager-gui,manager-script"/>
 					<!--Run the maven goal tomcat7:deploy to deploy your war package to tomcat server. -->
 				
 				<groupId>org.apache.tomcat.maven</groupId>
