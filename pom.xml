@@ -108,7 +108,7 @@
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>Nexus Snapshots Repository</name>			
-			<url>http://35.243.231.94:8081/repository/snapshot_test/</url>
+			<url>http://34.93.3.197:8081/repository/snapshot_test/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<profiles>
