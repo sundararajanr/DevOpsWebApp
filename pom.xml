@@ -49,7 +49,7 @@
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
 		<plugins>
-			<!--
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
@@ -70,12 +70,12 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-			-->
+		
 			<plugin>
-				 <!-- Add/update this in tomcat-home/conf/tomcat-users.xml file
+				 
 					<role rolename="manager-gui"/>
 					<user username="tomcat" password="s3cret" roles="admin,tomcat,manager-gui,manager-script"/>
-					Run the maven goal tomcat7:deploy to deploy your war package to tomcat server. -->
+					<!--Run the maven goal tomcat7:deploy to deploy your war package to tomcat server. -->
 				
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat8-maven-plugin</artifactId>
