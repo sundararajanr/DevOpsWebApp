@@ -81,7 +81,7 @@
 				<artifactId>tomcat8-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://localhost:8080/manager/text</url>
+					<url>http://35.200.170.108:8080/manager/text</url>
 					<update>true</update>
 					<path>/${project.artifactId}-${project.version}</path>
 					<username>tomcat</username>
