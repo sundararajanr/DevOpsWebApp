@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: rsundararajandocker/java-new-web-app
+      - image: rsundararajandocker/new-java-app
         name: javawebapp
         ports:
         - name: javawebapp
